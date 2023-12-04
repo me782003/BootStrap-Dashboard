@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bondi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="text-bg-dark">
+    <!-- navbar -->
+
+    <!-- buttons -->
+
+    <section class="w-100 h-100 container-fluid bg-dark" data-bs-theme="dark">
+      <div class="row h-100 ">
+        <div class="side col-2 border-end border-dark-emphasis border-4">
+          <a href="" class="d-flex align-items-center text-decoration-none text-light mt-3 fw-medium">
+            <i class="fa-solid fa-bolt mx-2"></i>
+            <span class="fs-4">Sidebar</span>
+          </a>
+          <hr class="border-top border-1 border-light mt-4">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <i class="me-2 fa-solid fa-house"></i>
+                Home
+              </a>
+            </li>
+
+              <a class="nav-link text-white"  href="user/add.html">
+                <i class="me-2 fa-solid fa-user-plus"></i>
+                Add Customer
+              </a>
+            </li>
+
+            </li>
+          </ul>
+        </div>
+        <div class="col-10">
+          <nav class="navbar  border-bottom border-light">
+            <div class="container-fluid justify-content-center justify-content-md-between">
+              <a class="navbar-brand text-light fw-bolder" ><q> Zamzam Sweet </q></a>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+          <!-- breadcrumb -->
+          <nav class="mt-5" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-white">Home</a></li>              
+            </ol>
+          </nav>
+          <table        
+            style="width: 99%"
+            class="table mt-5 table-bordered border-light table-dark table-striped mx-auto text-center"
+          >
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">FullName</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Country</th>
+                <th scope="col">Age</th>
+                <th scope="col">Last Updated</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-center">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td class="d-flex justify-content-evenly">
+                  <a 
+
+                  data-bs-toggle="tooltip" 
+                  data-bs-title="Default tooltip"
+
+                    class="btn btn-primary btn-sm" href="./user/view.html"><i class="fa-solid fa-eye"></i></a>
+                    <a class="btn btn-primary btn-sm" href="./user/edit.html"><i class="fa-solid fa-pencil"></i></a>
+                    <a class="btn btn-outline-danger btn-sm" href=""><i class="fa-solid fa-trash"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          
+        </div>
+      </div>
+  </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
